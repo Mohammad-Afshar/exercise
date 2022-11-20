@@ -7,11 +7,22 @@
   align-items: center;
 }
 
-.icon{
-display: flex;
-justify-content: space-around;
+.icon {
+  display: flex;
+  justify-content: space-around;
 }
-.image img{
+.image img {
   width: 64px;
   height: 64px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer .left{
+  width: 50%;
+}
+.footer .right{
+  width: 50%;
 }
