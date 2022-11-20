@@ -1,4 +1,8 @@
-.justify{
-    text-align: justify;
-    
+.justify {
+  text-align: justify;
+}
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
