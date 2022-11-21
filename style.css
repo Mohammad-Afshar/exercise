@@ -16,6 +16,8 @@
   height: 64px;
 }
 
+
+/* footer */
 .footer {
   display: flex;
   justify-content: center;
@@ -25,4 +27,28 @@
 }
 .footer .right{
   width: 50%;
+}
+
+.icons{
+  display: flex;
+}
+.icons img{
+  width: 42px;
+  height: 42px;
+}
+.icon1{
+  display: flex;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.icon1 .img{
+  margin-right: 5px;
+}
+.icon1 .desc span{
+  font-weight: bold;
+  font-size: 14px
+}
+.icon1 .desc p{
+  font-size: 12px;
 }
